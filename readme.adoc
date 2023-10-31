@@ -4,7 +4,8 @@ A replacement for the official https://github.com/minio/mc[minio/mc] Docker
 image that allows for custom startup scripts.
 
 This is needed because the official minio/mc image no longer includes a package
-manager and netcat is required for delayed startup.
+manager and additional packages are required for needed features such as
+delayed startup.
 
 == License
 
